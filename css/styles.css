@@ -433,11 +433,16 @@ footer .footcontainer .right {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-09.jpg);
 }
 
+#app .tourPages #hero1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-01.jpg);
+}
+#app .tourPages #hero2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-02.jpg);
+}
 #app .tourPages .hero {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-01.jpg);
   max-width: 981px;
   height: 413px;
   margin: 0 auto;
@@ -479,6 +484,15 @@ footer .footcontainer .right {
 }
 #app .tourPages .container #tourimg3 {
   background-image: url(../images/tour/tour-israel/israel-tour-03.jpg);
+}
+#app .tourPages .container #tourimg4 {
+  background-image: url(../images/tour/tour-usa/usa-tour-01.jpg);
+}
+#app .tourPages .container #tourimg5 {
+  background-image: url(../images/tour/tour-usa/usa-tour-02.jpg);
+}
+#app .tourPages .container #tourimg6 {
+  background-image: url(../images/tour/tour-usa/usa-tour-03.jpg);
 }
 #app .tourPages h3 {
   margin-top: 19px;

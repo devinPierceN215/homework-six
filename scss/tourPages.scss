@@ -1,8 +1,13 @@
 #app{
     .tourPages{
+        #hero1{
+            background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/tour/tour-01.jpg);
+        }
+        #hero2{
+            background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/tour/tour-02.jpg);
+        }
         .hero{
             @include imgback();
-            background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/tour/tour-01.jpg);
             max-width: 981px;
             height: 413px;
             margin: 0 auto;
@@ -41,6 +46,15 @@
             }
             #tourimg3{
                 background-image: url(../images/tour/tour-israel/israel-tour-03.jpg);
+            }
+            #tourimg4{
+                background-image: url(../images/tour/tour-usa/usa-tour-01.jpg);
+            }
+            #tourimg5{
+                background-image: url(../images/tour/tour-usa/usa-tour-02.jpg);
+            }
+            #tourimg6{
+                background-image: url(../images/tour/tour-usa/usa-tour-03.jpg);
             }
         }
         h3{
