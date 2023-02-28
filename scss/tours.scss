@@ -1,7 +1,7 @@
 #app{
     .tours{
         .hero{
-            background-image: url(../images/tour/tours-header.jpg);
+            background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/tour/tours-header.jpg);
             max-width: 981px;
             height: 200px;
             @include imgback();
@@ -18,7 +18,7 @@
             #tours4{
                 // new zealand wouldn't fit on one line so this is how I fixed it
                 h1{
-                    font-size: 53px;
+                    font-size: 50px;
                 }
             }
         }

@@ -12,6 +12,17 @@ h1, h2, h3, h4, h5, h6, p {
   margin-bottom: 16px;
 }
 
+#app {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+@media (max-width: 1050px) {
+  #app {
+    margin-right: 70px;
+    margin-left: 70px;
+  }
+}
 @font-face {
   font-family: gillregular;
   src: url(../fonts/Gill-Sans-Font-Family/Gill\ Sans.otf);
@@ -226,6 +237,10 @@ nav .right p {
   }
 }
 
+.homeapp {
+  margin: 0 !important;
+}
+
 .container {
   display: flex;
   align-items: center;
@@ -309,9 +324,7 @@ footer .footcontainer .right {
   font-size: 23px;
 }
 
-#app {
-  margin-left: 150px;
-  margin-right: 150px;
+#app .about {
   margin-bottom: 179px;
 }
 #app .about .about-header h1 {
@@ -379,14 +392,8 @@ footer .footcontainer .right {
   height: 30px;
 }
 
-@media (max-width: 800px) {
-  #app {
-    margin-right: 70px;
-    margin-left: 70px;
-  }
-}
 #app .tours .hero {
-  background-image: url(../images/tour/tours-header.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tours-header.jpg);
   max-width: 981px;
   height: 200px;
   background-repeat: no-repeat;
@@ -405,7 +412,7 @@ footer .footcontainer .right {
   margin-top: 55px;
 }
 #app .tours .container #tours4 h1 {
-  font-size: 53px;
+  font-size: 50px;
 }
 #app .tours #tours4 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-04.jpg);
@@ -424,6 +431,88 @@ footer .footcontainer .right {
 }
 #app .tours #tours9 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-09.jpg);
+}
+
+#app .tourPages .hero {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-01.jpg);
+  max-width: 981px;
+  height: 413px;
+  margin: 0 auto;
+  margin-top: 141px;
+  font-family: proxima-excond;
+  font-size: 80px;
+  color: white;
+  position: relative;
+  padding-left: 30px;
+  padding-top: 18px;
+}
+#app .tourPages .hero h2 {
+  font-size: 30px;
+  text-align: right;
+  position: absolute;
+  bottom: -8px;
+  right: 0;
+  margin-bottom: 0;
+}
+#app .tourPages .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 981px;
+  margin-top: 40px;
+}
+#app .tourPages .container .tourimg {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 298px;
+  height: 347px;
+}
+#app .tourPages .container #tourimg1 {
+  background-image: url(../images/tour/tour-israel/israel-tour-01.jpg);
+}
+#app .tourPages .container #tourimg2 {
+  background-image: url(../images/tour/tour-israel/israel-tour-02.jpg);
+}
+#app .tourPages .container #tourimg3 {
+  background-image: url(../images/tour/tour-israel/israel-tour-03.jpg);
+}
+#app .tourPages h3 {
+  margin-top: 19px;
+  margin-bottom: 0;
+  font-size: 60px;
+  font-family: proxima-excond;
+}
+#app .tourPages .borderBottom {
+  width: 171px;
+  height: 2px;
+  background-color: black;
+  margin-bottom: 36.5px;
+}
+#app .tourPages p {
+  font-family: gillregular;
+  font-size: 16px;
+  margin-bottom: 51px;
+}
+#app .tourPages a {
+  display: block;
+  width: 144px;
+  height: 40px;
+  border-radius: 20px;
+  font-family: gillregular;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #79ADDC;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 10px;
+  margin-top: 80px;
+  margin-bottom: 100px;
 }
 
 /*# sourceMappingURL=styles.css.map */

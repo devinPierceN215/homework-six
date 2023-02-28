@@ -1,0 +1,75 @@
+#app{
+    .tourPages{
+        .hero{
+            @include imgback();
+            background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/tour/tour-01.jpg);
+            max-width: 981px;
+            height: 413px;
+            margin: 0 auto;
+            margin-top: 141px;
+            font-family: proxima-excond;
+            font-size: 80px;
+            color: white;
+            position: relative;
+            padding-left: 30px;
+            padding-top: 18px;
+            h2{
+                font-size: 30px;
+                text-align: right;
+                position: absolute;
+                bottom: -8px;
+                right: 0;
+                margin-bottom: 0;
+            }
+        }
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 981px;
+            margin-top: 40px;
+            .tourimg{
+                @include imgback();
+                width: 298px;
+                height: 347px;
+            }
+            #tourimg1{
+                background-image: url(../images/tour/tour-israel/israel-tour-01.jpg);
+            }
+            #tourimg2{
+                background-image: url(../images/tour/tour-israel/israel-tour-02.jpg);
+            }
+            #tourimg3{
+                background-image: url(../images/tour/tour-israel/israel-tour-03.jpg);
+            }
+        }
+        h3{
+            margin-top: 19px;
+            margin-bottom: 0;
+            @include proxbig();
+        }
+        .borderBottom{
+            width: 171px;
+            height: 2px;
+            background-color: black;
+            margin-bottom: 36.5px;
+        }
+        p{
+            @include parag();
+            margin-bottom: 51px;
+        }
+        a{
+            display: block;
+            width: 144px;
+            height: 40px;
+            border-radius: 20px;
+            @include buttons();
+            color: white;
+            margin: 0 auto;
+            text-align: center;
+            padding-top: 10px;
+            margin-top: 80px;
+            margin-bottom: 100px;
+        }
+    }
+}
