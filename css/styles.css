@@ -78,58 +78,47 @@ nav .right p {
   color: #000;
 }
 
-.hero {
+#app .home .hero {
   width: 100%;
   height: 500px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/hero.jpg);
-  background-position: center;
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   text-align: center;
   padding-top: 172px;
   color: white;
 }
-.hero h1 {
+#app .home .hero h1 {
   text-transform: uppercase;
-  font-family: proxima-excond;
   font-size: 60px;
+  font-family: proxima-excond;
   margin-bottom: 0px;
 }
-.hero p {
+#app .home .hero p {
   margin-top: 29px;
   font-family: gillitalic;
   font-size: 20px;
   margin-bottom: 0px;
 }
-.hero a {
+#app .home .hero a {
   display: block;
   margin: 0 auto;
   margin-top: 48px;
   height: 40px;
   width: 121px;
-  background-color: #79ADDC;
-  text-decoration: none;
   font-family: gillregular;
   font-size: 15px;
-  color: white;
   text-transform: uppercase;
+  text-decoration: none;
+  background-color: #79ADDC;
+  color: white;
   padding-top: 10px;
 }
-
-div.container {
+#app .home div.container {
   margin-top: -43px;
 }
-div.container #home1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-01.jpg);
-}
-div.container #home2 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-02.jpg);
-}
-div.container #home3 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-03.jpg);
-}
-
-.form {
+#app .home .form {
   max-width: 858px;
   padding-left: 20px;
   padding-right: 20px;
@@ -137,12 +126,12 @@ div.container #home3 {
   margin-top: 50px;
   margin-bottom: 100px;
 }
-.form h1 {
-  font-family: proxima-excond;
+#app .home .form h1 {
   font-size: 60px;
+  font-family: proxima-excond;
   text-transform: uppercase;
 }
-.form input {
+#app .home .form input {
   height: 58px;
   margin-bottom: 20px;
   font-family: gilllight;
@@ -150,69 +139,69 @@ div.container #home3 {
   padding-left: 20px;
   border: solid 1px #79ADDC;
 }
-.form input:focus {
+#app .home .form input:focus {
   outline: none;
 }
-.form #left {
+#app .home .form #left {
   width: 344px;
   margin-right: 17px;
 }
-.form #right {
+#app .home .form #right {
   width: 453px;
 }
-.form .form-container {
+#app .home .form .form-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
   position: relative;
 }
-.form #check {
+#app .home .form #check {
   width: 698px;
 }
-.form p {
+#app .home .form p {
   font-family: gilllight;
   font-size: 18px;
 }
-.form i {
+#app .home .form i {
   position: absolute;
   font-size: 19px;
 }
-.form #calender {
+#app .home .form #calender {
   top: 20px;
   right: 20px;
 }
-.form #dropdown {
+#app .home .form #dropdown {
   width: 103px;
 }
-.form #down1 {
+#app .home .form #down1 {
   right: 20px;
   top: 20px;
 }
-.form #down2 {
+#app .home .form #down2 {
   right: 39%;
   top: 20px;
 }
-.form #down3 {
+#app .home .form #down3 {
   right: 76%;
   top: 20px;
 }
-.form #message {
+#app .home .form #message {
   width: 100%;
   height: 192px;
 }
-.form #message::placeholder {
+#app .home .form #message::placeholder {
   position: absolute;
   top: 20px;
 }
-.form a {
+#app .home .form a {
   display: block;
-  text-decoration: none;
-  color: white;
-  background-color: #79ADDC;
   font-family: gillregular;
   font-size: 15px;
   text-transform: uppercase;
+  text-decoration: none;
+  background-color: #79ADDC;
+  color: white;
   width: 100%;
   height: 60px;
   margin: 0 auto;
@@ -221,22 +210,22 @@ div.container #home3 {
   text-align: center;
   padding-top: 23px;
 }
-
 @media (max-width: 880px) {
-  .container {
+  #app .home .container {
     flex-direction: column;
     align-items: center;
   }
-  .container .tile {
+  #app .home .container .tile {
     margin-bottom: 20px;
   }
-  .form #left, .form #right {
+  #app .home .form #left, #app .home .form #right {
     width: 100%;
   }
-  .form #check {
+  #app .home .form #check {
     width: 80%;
   }
 }
+
 .container {
   display: flex;
   align-items: center;
@@ -244,19 +233,28 @@ div.container #home3 {
   margin: 0 auto;
   max-width: 818px;
 }
+.container #home1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-01.jpg);
+}
+.container #home2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-02.jpg);
+}
+.container #home3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-03.jpg);
+}
 .container .tile {
   width: 236px;
   height: 304px;
+  background-repeat: no-repeat;
   background-position: center;
-  background-repeat: none;
   background-size: cover;
   color: white;
   text-align: center;
 }
 .container .tile h1 {
   margin-top: 47px;
-  font-family: proxima-excond;
   font-size: 60px;
+  font-family: proxima-excond;
   text-transform: uppercase;
   margin-bottom: 0px;
 }
@@ -272,14 +270,14 @@ div.container #home3 {
   margin: 0 auto;
   margin-top: 56px;
   color: white;
-  text-decoration: none;
   font-family: gillregular;
   font-size: 15px;
   text-transform: uppercase;
+  text-decoration: none;
+  background-color: #79ADDC;
   height: 40px;
   width: 133px;
   border-radius: 20px;
-  background-color: #79ADDC;
   padding-top: 10px;
 }
 
@@ -318,8 +316,8 @@ footer .footcontainer .right {
 }
 #app .about .about-header h1 {
   margin-top: 183px;
-  font-family: proxima-excond;
   font-size: 60px;
+  font-family: proxima-excond;
   margin-bottom: 0;
 }
 #app .about .about-header .border-bottom {
@@ -330,8 +328,8 @@ footer .footcontainer .right {
   margin-bottom: 36.5px;
 }
 #app .about .about-header p {
-  font-size: 16px;
   font-family: gillregular;
+  font-size: 16px;
 }
 #app .about .about-client-quotes h2 {
   font-family: proxima-excond;
@@ -386,6 +384,46 @@ footer .footcontainer .right {
     margin-right: 70px;
     margin-left: 70px;
   }
+}
+#app .tours .hero {
+  background-image: url(../images/tour/tours-header.jpg);
+  max-width: 981px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+  margin-top: 142px;
+  text-align: center;
+  color: white;
+  font-size: 60px;
+  font-family: proxima-excond;
+  padding-top: 53px;
+  margin-bottom: -7px;
+}
+#app .tours .container {
+  margin-top: 55px;
+}
+#app .tours .container #tours4 h1 {
+  font-size: 53px;
+}
+#app .tours #tours4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-04.jpg);
+}
+#app .tours #tours5 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-05.jpg);
+}
+#app .tours #tours6 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-06.jpg);
+}
+#app .tours #tours7 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-07.jpg);
+}
+#app .tours #tours8 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-08.jpg);
+}
+#app .tours #tours9 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-09.jpg);
 }
 
 /*# sourceMappingURL=styles.css.map */

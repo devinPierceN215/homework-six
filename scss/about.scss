@@ -6,8 +6,7 @@
         .about-header{
             h1{
                 margin-top: 183px;
-                font-family: proxima-excond;
-                font-size: 60px;
+                @include proxbig();
                 margin-bottom: 0;
             }
             .border-bottom{
@@ -18,8 +17,7 @@
                 margin-bottom: 36.5px;
             }
             p{
-                font-size: 16px;
-                font-family: gillregular;
+                @include parag();
             }
         }
         .about-client-quotes{
