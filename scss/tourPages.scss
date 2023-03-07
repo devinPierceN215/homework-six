@@ -6,6 +6,27 @@
         #hero2{
             background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/tour/tour-02.jpg);
         }
+        #hero3{
+            background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/tour/tour-03.jpg);
+        }
+        #hero4{
+            background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/tour/tour-04.jpg);
+        }
+        #hero5{
+            background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/tour/tour-05.jpg);
+        }
+        #hero6{
+            background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/tour/tour-06.jpg);
+        }
+        #hero7{
+            background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/tour/tour-07.jpg);
+        }
+        #hero8{
+            background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/tour/tour-08.jpg);
+        }
+        #hero9{
+            background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/tour/tour-09.jpg);
+        }
         .hero{
             @include imgback();
             max-width: 981px;
@@ -55,6 +76,69 @@
             }
             #tourimg6{
                 background-image: url(../images/tour/tour-usa/usa-tour-03.jpg);
+            }
+            #tourimg7{
+                background-image: url(../images/tour/tour-aus/aus-tour-01.jpg);
+            }
+            #tourimg8{
+                background-image: url(../images/tour/tour-aus/aus-tour-02.jpg);
+            }
+            #tourimg9{
+                background-image: url(../images/tour/tour-aus/aus-tour-03.jpg);
+            }
+            #tourimg10{
+                background-image: url(../images/tour/tour-nz/nz-tour-01.jpg);
+            }
+            #tourimg11{
+                background-image: url(../images/tour/tour-nz/nz-tour-02.jpg);
+            }
+            #tourimg12{
+                background-image: url(../images/tour/tour-nz/nz-tour-03.jpg);
+            }
+            #tourimg13{
+                background-image: url(../images/tour/tour-france/france-tour-01.jpg);
+            }
+            #tourimg14{
+                background-image: url(../images/tour/tour-france/france-tour-02.jpg);
+            }
+            #tourimg15{
+                background-image: url(../images/tour/tour-france/france-tour-03.jpg);
+            }
+            #tourimg16{
+                background-image: url(../images/tour/tour-egypt/egypt-tour-01.jpg);
+            }
+            #tourimg17{
+                background-image: url(../images/tour/tour-egypt/egypt-tour-02.jpg);
+            }
+            #tourimg18{
+                background-image: url(../images/tour/tour-egypt/egypt-tour-03.jpg);
+            }
+            #tourimg19{
+                background-image: url(../images/tour/tour-japan/japan-tour-01.jpg);
+            }
+            #tourimg20{
+                background-image: url(../images/tour/tour-japan/japan-tour-02.jpg);
+            }
+            #tourimg21{
+                background-image: url(../images/tour/tour-japan/japan-tour-03.jpg);
+            }
+            #tourimg22{
+                background-image: url(../images/tour/tour-canada/canada-tour-01.jpg);
+            }
+            #tourimg23{
+                background-image: url(../images/tour/tour-canada/canada-tour-02.jpg);
+            }
+            #tourimg24{
+                background-image: url(../images/tour/tour-canada/canada-tour-03.jpg);
+            }
+            #tourimg25{
+                background-image: url(../images/tour/tour-uae/uae-tour-01.jpg);
+            }
+            #tourimg26{
+                background-image: url(../images/tour/tour-uae/uae-tour-02.jpg);
+            }
+            #tourimg27{
+                background-image: url(../images/tour/tour-uae/uae-tour-03.jpg);
             }
         }
         h3{

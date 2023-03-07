@@ -392,6 +392,9 @@ footer .footcontainer .right {
   height: 30px;
 }
 
+#app .tours {
+  margin-bottom: 100px;
+}
 #app .tours .hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tours-header.jpg);
   max-width: 981px;
@@ -438,6 +441,27 @@ footer .footcontainer .right {
 }
 #app .tourPages #hero2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-02.jpg);
+}
+#app .tourPages #hero3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-03.jpg);
+}
+#app .tourPages #hero4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-04.jpg);
+}
+#app .tourPages #hero5 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-05.jpg);
+}
+#app .tourPages #hero6 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-06.jpg);
+}
+#app .tourPages #hero7 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-07.jpg);
+}
+#app .tourPages #hero8 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-08.jpg);
+}
+#app .tourPages #hero9 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-09.jpg);
 }
 #app .tourPages .hero {
   background-repeat: no-repeat;
@@ -493,6 +517,69 @@ footer .footcontainer .right {
 }
 #app .tourPages .container #tourimg6 {
   background-image: url(../images/tour/tour-usa/usa-tour-03.jpg);
+}
+#app .tourPages .container #tourimg7 {
+  background-image: url(../images/tour/tour-aus/aus-tour-01.jpg);
+}
+#app .tourPages .container #tourimg8 {
+  background-image: url(../images/tour/tour-aus/aus-tour-02.jpg);
+}
+#app .tourPages .container #tourimg9 {
+  background-image: url(../images/tour/tour-aus/aus-tour-03.jpg);
+}
+#app .tourPages .container #tourimg10 {
+  background-image: url(../images/tour/tour-nz/nz-tour-01.jpg);
+}
+#app .tourPages .container #tourimg11 {
+  background-image: url(../images/tour/tour-nz/nz-tour-02.jpg);
+}
+#app .tourPages .container #tourimg12 {
+  background-image: url(../images/tour/tour-nz/nz-tour-03.jpg);
+}
+#app .tourPages .container #tourimg13 {
+  background-image: url(../images/tour/tour-france/france-tour-01.jpg);
+}
+#app .tourPages .container #tourimg14 {
+  background-image: url(../images/tour/tour-france/france-tour-02.jpg);
+}
+#app .tourPages .container #tourimg15 {
+  background-image: url(../images/tour/tour-france/france-tour-03.jpg);
+}
+#app .tourPages .container #tourimg16 {
+  background-image: url(../images/tour/tour-egypt/egypt-tour-01.jpg);
+}
+#app .tourPages .container #tourimg17 {
+  background-image: url(../images/tour/tour-egypt/egypt-tour-02.jpg);
+}
+#app .tourPages .container #tourimg18 {
+  background-image: url(../images/tour/tour-egypt/egypt-tour-03.jpg);
+}
+#app .tourPages .container #tourimg19 {
+  background-image: url(../images/tour/tour-japan/japan-tour-01.jpg);
+}
+#app .tourPages .container #tourimg20 {
+  background-image: url(../images/tour/tour-japan/japan-tour-02.jpg);
+}
+#app .tourPages .container #tourimg21 {
+  background-image: url(../images/tour/tour-japan/japan-tour-03.jpg);
+}
+#app .tourPages .container #tourimg22 {
+  background-image: url(../images/tour/tour-canada/canada-tour-01.jpg);
+}
+#app .tourPages .container #tourimg23 {
+  background-image: url(../images/tour/tour-canada/canada-tour-02.jpg);
+}
+#app .tourPages .container #tourimg24 {
+  background-image: url(../images/tour/tour-canada/canada-tour-03.jpg);
+}
+#app .tourPages .container #tourimg25 {
+  background-image: url(../images/tour/tour-uae/uae-tour-01.jpg);
+}
+#app .tourPages .container #tourimg26 {
+  background-image: url(../images/tour/tour-uae/uae-tour-02.jpg);
+}
+#app .tourPages .container #tourimg27 {
+  background-image: url(../images/tour/tour-uae/uae-tour-03.jpg);
 }
 #app .tourPages h3 {
   margin-top: 19px;
